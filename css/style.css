@@ -33,7 +33,7 @@ body {
 }
 
 .navbar, .footer {
-	background-color: rgba(106, 191, 195, 0.5);
+	background-color: rgba(36, 72, 104, 0.5);
 	padding: 1em;
 }
 
@@ -41,13 +41,43 @@ body {
 	border-radius: .5em;
 }
 
+.round-more {
+	border-radius: 1em;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	float: left;
+	width: 20%;
+	margin: .5em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #6ABFC3;
+}
+
+.navbar a {
+	color: white;
+	padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4a898c;
+}
+
+.btn {
+  text-decoration: none;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 1000px) {
-    .right-content {
-    	float: none;
-    	width: 100%;
-    }
-    .main-content-left {
+    .right-content, .main-content-left {
     	float: none;
     	width: 100%;
     }
