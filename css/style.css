@@ -1,1 +1,54 @@
-/* nothing here haha */
+/* style.css */
+
+body {
+  background: #6ABFC3; 
+  background: -webkit-linear-gradient(top left, white, #6ABFC3);
+  background: -moz-linear-gradient(bottom right, white, #6ABFC3);
+  background: linear-gradient(to bottom right, white, #6ABFC3);
+  background-repeat: no-repeat;
+  background-size: 1000vh;
+  font-family: Arial, Verdana;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content-left {
+	width: 70%;
+	float: left;
+	background-color: rgba(106, 191, 195, 0.1);
+	padding: 1em;
+}
+
+.right-content {
+	width: 30%;
+	float: right;
+	background-color: rgba(3, 3, 3, 0.1);
+	padding: 1em;
+}
+
+.clear {
+	clear: both;
+}
+
+.navbar, .footer {
+	background-color: rgba(106, 191, 195, 0.5);
+	padding: 1em;
+}
+
+.round {
+	border-radius: .5em;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+    .right-content {
+    	float: none;
+    	width: 100%;
+    }
+    .main-content-left {
+    	float: none;
+    	width: 100%;
+    }
+}
