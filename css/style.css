@@ -42,7 +42,7 @@ body {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .right-content {
     	float: none;
     	width: 100%;
